@@ -5,79 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    .recommendation-box {
+      border: 3px solid #f6d770;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fffef9;
+      margin-bottom: 30px;
+      font-family: "Arial", sans-serif;
+    }
+
+    .recommendation-title {
+      font-weight: bold;
+      color: #d3a000;
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .recommendation-list {
+      font-size: 16px;
+      line-height: 2;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .recommendation-list li::before {
+      content: "【";
+      color: #333;
+    }
+
+    .recommendation-list li::after {
+      content: "】";
+      color: #333;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      background-color: #fbe17b;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    .section-content {
+      font-size: 15px;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    .section-content ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .section-content li {
+      list-style-type: "✔ ";
+      margin-bottom: 5px;
+    }
+
+    .clinic-title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 15px;
+      margin-bottom: 8px;
+    }
+  </style>
   <body>
-    <style>
-      .recommendation-box {
-        border: 3px solid #f6d770;
-        padding: 20px;
-        border-radius: 10px;
-        background-color: #fffef9;
-        margin-bottom: 30px;
-        font-family: "Arial", sans-serif;
-      }
-
-      .recommendation-title {
-        font-weight: bold;
-        color: #d3a000;
-        font-size: 18px;
-        text-align: center;
-        margin-bottom: 20px;
-      }
-
-      .recommendation-list {
-        font-size: 16px;
-        line-height: 2;
-        padding-left: 0;
-        list-style: none;
-      }
-
-      .recommendation-list li::before {
-        content: "【";
-        color: #333;
-      }
-
-      .recommendation-list li::after {
-        content: "】";
-        color: #333;
-      }
-
-      .section {
-        margin-bottom: 40px;
-      }
-
-      .section-title {
-        background-color: #fbe17b;
-        font-weight: bold;
-        font-size: 18px;
-        padding: 10px;
-        border-radius: 6px;
-        margin-bottom: 15px;
-      }
-
-      .section-content {
-        font-size: 15px;
-        line-height: 1.8;
-        color: #333;
-      }
-
-      .section-content ul {
-        padding-left: 20px;
-        margin-top: 10px;
-      }
-
-      .section-content li {
-        list-style-type: "✔ ";
-        margin-bottom: 5px;
-      }
-
-      .clinic-title {
-        font-weight: bold;
-        font-size: 16px;
-        margin-top: 15px;
-        margin-bottom: 8px;
-      }
-    </style>
-
     <div class="recommendation-box">
       <div class="recommendation-title">
         ＼ あまファースト歯科のオススメポイント ／
